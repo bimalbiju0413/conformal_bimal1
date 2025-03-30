@@ -1,4 +1,6 @@
 using DataFrames, CSV, Dates, Statistics, PrettyTables, Random
+using Lux, Optimisers, Random, Statistics, Zygote, NNlib
+
 
 # Include all necessary files
 include("load_data.jl")        # loads `datasets` and `labels`
